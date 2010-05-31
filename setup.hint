@@ -1,0 +1,7 @@
+category: X11
+requires: mkfontdir mkfontscale fontconfig font-encodings
+sdesc: "Ancient Hebrew TrueType fonts"
+ldesc: "A collection of fonts related to the history of the Hebrew 
+writing. Starting with the Proto-Canaanite continuing with 
+Phoenician/Canaanite, Paleo-Hebrew, Aramaic, early Hebrew Square Script 
+- all the way to the modern Hebrew letter forms."

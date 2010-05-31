@@ -1,0 +1,16 @@
+ORIG_PN="AncientSemiticFonts"
+inherit font
+
+DESCRPTION="Ancient Hebrew TrueType fonts"
+HOMEPAGE="http://culmus.sourceforge.net/"
+SRC_URI="mirror://sourceforge/culmus/${ORIG_PN}-${PV/_/-}.tgz"
+SRC_DIR="${ORIG_PN}-${PV/_/-}"
+
+src_compile() { :; }
+src_test() { :; }
+
+src_install() {
+	cd ${S}
+	fontinto TTF
+	dofont src/*.ttf
+}

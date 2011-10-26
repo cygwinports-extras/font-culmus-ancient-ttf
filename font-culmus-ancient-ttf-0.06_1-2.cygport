@@ -10,7 +10,8 @@ src_compile() { :; }
 src_test() { :; }
 
 src_install() {
-	cd ${S}
+	cd ${S}/src
 	fontinto TTF
-	dofont src/*.ttf
+	# KeterYG is provided in culmus-0.120
+	dofont Aramaic-*.ttf Hebrew-*.ttf KeterAram*.ttf Makabi*.ttf Phoenician-*.ttf Proto-*.ttf
 }
